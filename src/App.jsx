@@ -134,6 +134,10 @@ function App() {
   return (
     <>{ width <= 1000 ? 
       <div className="flex h-screen w-full flex-col items-center justify-center p-8 bg-black text-white ">
+        <div className="w-full flex justify-center h-8 text-white">
+          <img src={logo} className="h-full" alt="Logo" />
+          <img src={matic} className="h-full" alt="Logo" />
+        </div>
         <p className="p-4 sm:text-lg md:text-2xl tracking-wider font-mono font-semibold">
           Please use a laptop<span className="hidden sm:inline">or a wider screen</span>
         </p>
